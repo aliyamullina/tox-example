@@ -1,0 +1,8 @@
+tox==3.24.3
+black==20.8b1
+flake8==3.8.4
+vulture==2.3
+mypy==0.910
+pytest==6.2.4
+allure-pytest==2.9.43
+allure-python-commons
