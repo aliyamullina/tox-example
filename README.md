@@ -23,6 +23,10 @@ git rebase main
 ```
 git checkout requirements.txt
 ```
+#### Перезапись истории в трех последних коммитах
+```
+git rebase -i HEAD~3
+```
 #### Выход из vim
 Нажать `Esc`
 ```
