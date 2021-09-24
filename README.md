@@ -27,7 +27,10 @@ git checkout requirements.txt
 ```
 git rebase -i HEAD~3
 ```
-#### Выход из vim
+# VIM
+#### Начать режим редактирования
+Нажать `i`
+#### Выход
 Нажать `Esc`
 ```
 :wq
