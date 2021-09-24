@@ -23,7 +23,11 @@ git rebase main
 ```
 git checkout requirements.txt
 ```
-
+#### Выход из vim
+Нажать `Esc`
+```
+:wq
+```
 # Screen Mac
 #### Окно
 ```
