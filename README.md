@@ -7,7 +7,10 @@ pip install -r requirements.txt
 ```
 tox
 ```
-
+#### Запуск [testenv:linters]
+```
+tox -e linters
+```
 # Git
 #### Слияние hey в main
 ```
