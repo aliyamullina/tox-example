@@ -53,3 +53,10 @@ cmd + shift + 3
 ```
 cmd + shift + 4
 ```
+# Github CI/CD, github actions
+#### Добавить в корень проекта
+```
+.github/workflows/tests_ci.yml
+```
+#### Документация
+[docs.github.com/en/actions](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idsteps)
