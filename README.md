@@ -12,6 +12,10 @@ tox
 tox -e linters
 ```
 # Git
+#### Создать ветку cake на основе текущей main
+```
+git checkout -b cake main
+```
 #### Слияние hey в main
 ```
 git checkout main
