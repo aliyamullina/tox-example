@@ -26,9 +26,22 @@ git checkout main
 git merge hey
 ```
 #### Подтянуть изменения из `main` в `hey`
+Получаю последние изменения
+```
+git checkout main
+git pull
+```
+Перехожу в свою ветку
 ```
 git checkout hey
+```
+Если надо hey поверх main, то
+```
 git rebase main
+```
+Если объединить,то
+```
+git merge main
 ```
 #### Отменить изменения в `requirements.txt`
 ```
