@@ -34,12 +34,14 @@ git rebase main
 ```
 git checkout requirements.txt
 ```
-#### Перезапись истории в трех последних коммитах
+#### Перезапись истории в трех последних коммитах, работа с [VIM](#VIM)
 ```
 git rebase -i HEAD~3
+git push --force
 ```
-#### Сбросить до коммита
+#### Сбросить до коммита и отправить изменения
 ```
+git log
 git reset --hard a3775a5485af0af20375cedf46112db5f813322a 
 git push --force
 ```
