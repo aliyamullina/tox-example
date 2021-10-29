@@ -12,25 +12,25 @@ tox
 tox -e linters
 ```
 # Git
-#### Создать ветку hey на основе текущей main
+#### Создать `hey` на основе текущей `main`
 ```
 git checkout -b hey main
 ```
-#### Залить локальную ветку hey на удаленную origin/hey
+#### Залить локальную `hey` на удаленную `origin/hey`
 ```
 git push origin hey
 ```
-#### Слияние hey в main
+#### Слияние `hey` в `main`
 ```
 git checkout main
 git merge hey
 ```
-#### Подтянуть изменения из main в hey
+#### Подтянуть изменения из `main` в `hey`
 ```
 git checkout hey
 git rebase main
 ```
-#### Отменить изменения в файле requirements.txt
+#### Отменить изменения в `requirements.txt`
 ```
 git checkout requirements.txt
 ```
