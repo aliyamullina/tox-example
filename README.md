@@ -12,9 +12,13 @@ tox
 tox -e linters
 ```
 # Git
-#### Создать ветку cake на основе текущей main
+#### Создать ветку hey на основе текущей main
 ```
-git checkout -b cake main
+git checkout -b hey main
+```
+#### Залить локальную ветку hey на удаленную origin/hey
+```
+git push origin hey
 ```
 #### Слияние hey в main
 ```
