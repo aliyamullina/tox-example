@@ -58,6 +58,12 @@ git log
 git reset --hard a3775a5485af0af20375cedf46112db5f813322a 
 git push --force
 ```
+#### Создать ветку `hey` от коммита из ветки `main`
+```
+git checkout ffb2e33dc0ecae5f2a917e666f6b3ed602ac2025
+git switch -c hey
+git push origin hey
+```
 
 # VIM
 #### Начать режим редактирования
