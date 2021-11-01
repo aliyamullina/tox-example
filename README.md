@@ -87,12 +87,12 @@ cmd + shift + 4
 #### Документация
 [docs.github.com/en/actions](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idsteps)
 
-#### conftest.py
-Полноэкранный режим
+# conftest.py
+#### Полноэкранный режим
 ```
 add_options.add_argument("--start-fullscreen")
 ```
-Запуск без отображения браузера
+#### Запуск без отображения браузера
 ```
 add_options.add_argument("--headless")
 ```
