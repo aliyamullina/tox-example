@@ -12,6 +12,9 @@ tox
 tox -e linters
 ```
 # Git
+#### Поиск нужных команд для гита
+[gitexplorer.com](https://gitexplorer.com/)
+
 #### Создать `hey` на основе текущей `main`
 ```
 git checkout -b hey main
